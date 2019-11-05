@@ -1,0 +1,105 @@
+.container-app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input-text {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 25px;
+    border: none;
+    border-bottom : 1px solid black;
+}
+
+.button-app {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 25px;
+    border : none;
+    border-radius: 0.3rem;
+    background-color: aquamarine;
+    cursor: pointer;
+    color: red;
+}
+
+
+
+.text-output {
+    background-color: whitesmoke;
+    width: 25%;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.text-output2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 25%;
+    margin: 0 auto;
+}
+
+th, tr , td {  
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+    max-width: 40px;
+}
+
+/* .delete-logo {
+    height: 5%;
+    width: 15%;
+} */
+
+@media only screen and (min-width: 1200px) {
+    .delete-logo {
+        height: 5%;
+        width: 12%;
+        cursor: pointer;
+    }
+    .text-logo {
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .delete-logo {
+        height: 5%;
+        width: 20%;
+        cursor: pointer;
+    }
+    .text-logo {
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .delete-logo {
+        height: 5%;
+        width: 40%;
+        cursor: pointer;
+    }
+    .text-logo {
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+}
